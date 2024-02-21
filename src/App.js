@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import {useState} from 'react';
 
 function App() {
+  const [msg,setMsg] = useState(0);
+  const [bin,setBin] = useState(0);
+  const [oct,setOct] = useState(0);
+  const [hex,setHex] = useState(0);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      <form onSubmit={event =>{
+        event.preventDefault();
+        setMsg(event.target.text.value);
+        setBin(Number(msg).toString(2));
+        setOct(Number(msg).toString(8));
+        setHex(Number(msg).toString(16).toUpperCase());
+        
+      }}>
+        <p><input type='text' id='text'/></p>
+        <p><input type='submit' value='제출'/></p>
+        
+      </form>
+      
+      <p>2진수 : {bin}</p>
+      <p>8진수 : {oct}</p>
+      <p>16진수 : {hex}</p>
     </div>
   );
 }
