@@ -8,27 +8,28 @@ function App() {
   const [oct,setOct] = useState(0);
   const [hex,setHex] = useState(0);
 
+  function Form1(e){
+    let t_value = e.target.value;
+    setMsg(t_value);
+    setBin(Number(t_value).toString(2));
+    setOct(Number(t_value).toString(8));
+    setHex(Number(t_value).toString(16).toUpperCase());
+    console.log(t_value);
+  }
+  
   return (
     <div>
+      <p><input type='text' id='text' onChange={Form1} /></p>
+      <div>
+        <p>2진수 : {bin}</p>
+        <p>8진수 : {oct}</p>
+        <p>16진수 : {hex}</p>
+      </div>
       
-      <form onSubmit={event =>{
-        event.preventDefault();
-        setMsg(event.target.text.value);
-        setBin(Number(msg).toString(2));
-        setOct(Number(msg).toString(8));
-        setHex(Number(msg).toString(16).toUpperCase());
-        
-      }}>
-        <p><input type='text' id='text'/></p>
-        <p><input type='submit' value='제출'/></p>
-        
-      </form>
-      
-      <p>2진수 : {bin}</p>
-      <p>8진수 : {oct}</p>
-      <p>16진수 : {hex}</p>
     </div>
   );
 }
+
+
 
 export default App;
