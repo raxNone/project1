@@ -14,7 +14,9 @@ function App() {
     opt.push(<option key={i}>{i}</option>)
   }
 
-  function Form1(e){
+
+  function Form1(e){  
+
     let t_value = Number(e.target.value);
     setMsg(t_value);
     setBin(t_value.toString(2));
@@ -27,11 +29,12 @@ function App() {
 
 
   return (
+    <div id='wrap'>
     <div className='container'>
       <div className='body' >
         <h1>진법변환</h1>
 
-        <p><input type='text' id='text'autoComplete='off' placeholder='숫자를 입력하세요' style={{height:"25px", width :"500px", fontSize:"18px"}} onChange={Form1}/></p>
+        <p><input type='number' id='text'autoComplete='off' placeholder='숫자를 입력하세요' style={{height:"25px", width :"500px", fontSize:"18px"}} onChange={Form1}/></p>
         
         <p>2진수 : {bin}</p>
         <p>8진수 : {oct}</p>
@@ -43,7 +46,7 @@ function App() {
         
       </div>
     </div>
-    
+  </div>
   );
 }
 
