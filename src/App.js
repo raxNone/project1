@@ -27,19 +27,23 @@ function App() {
 
 
   return (
-    <div>
-      <p><input type='text' id='text'autoComplete='off' onChange={Form1}/></p>
-      <div>
+    <div className='container'>
+      <div className='body' >
+        <h1>진법변환</h1>
+
+        <p><input type='text' id='text'autoComplete='off' placeholder='숫자를 입력하세요' style={{height:"25px", width :"500px", fontSize:"18px"}} onChange={Form1}/></p>
+        
         <p>2진수 : {bin}</p>
         <p>8진수 : {oct}</p>
         <p>16진수 : {hex}</p>
         <select style={{height:"25px", width :"50px", fontSize:"18px"}} defaultValue="10" onChange={e=>{
-          let n =Number(e.target.value);
+          let n = Number(e.target.value);
           setNum(n);
           setCustom(msg.toString(n).toUpperCase())}}>{opt}</select> 진수 : {custom}
+        
       </div>
-      
     </div>
+    
   );
 }
 
