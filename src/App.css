@@ -27,6 +27,13 @@
   align-items: center;
 }
 
+hr{
+  background-color:lightgrey;
+  margin:0;
+  border:0;
+  height:1px;
+}
+
 ul{
   list-style: none;
 }
@@ -42,19 +49,9 @@ li{
   margin: 0;
 }
 
-
-
-
 .container{
   margin: 0 auto;
   width: 1190px;
-}
-
-hr{
-  background-color:lightgrey;
-  margin:0;
-  border:0;
-  height:1px;
 }
 
 .body{
@@ -75,20 +72,7 @@ hr{
   font-size:16px;
   font-weight: 500;
   color:black;
+}
+a{
   text-decoration-line: none;
-}
-
-#selectionList{
-  display:flex;
-  position:relative;
-  margin-top: 3px;
-}
-button{
-  margin-right:10px;
-  width:80px;
-  height:50px;
-  font-size: 20px;
-}
-.input{
-  display:flex;
 }
