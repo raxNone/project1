@@ -5,11 +5,14 @@ import './App.css';
 
 import {useState} from 'react';
 
-import Form1 from './Form1'
-import './Form1.css'
+import Form1 from './sites/Form1'
+import './sites/Form1.css'
 
-import Form2 from './Form2'
-import './Form2.css'
+import Form2 from './sites/Form2'
+import './sites/Form2.css'
+
+import Form3 from './sites/Form3'
+import './sites/Form3.css'
 
 function App() {
   
@@ -49,6 +52,7 @@ function App() {
             <Route path='/' element={<Form1/>}/>
             <Route path='/form1/' element={<Form1/>}/>
             <Route path='/form2/' element={<Form2/>}/>
+            <Route path='/form3/' element={<Form3/>}/>
           </Routes>
         </BrowserRouter>
       </div>
