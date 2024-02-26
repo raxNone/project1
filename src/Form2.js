@@ -5,12 +5,10 @@ export default function Form2(){
     const [txt2, setTxt2] = useState('');
     const [method, setMethod] = useState(true);//true->t2a, false-> a2t
     const [msg,setMsg] = useState('텍스트를 아스키로')
-    return(
-        <div className='container'>
-            <div className='body' >
+    return(<>
                 <h2>아스키변환 - {msg}</h2>
                 <div className="form2Text">
-                    <textarea id="text1" value={txt1} placeholder={msg.slice(0,3)+' 문자를 입력하세요.'} onChange={e=>{
+                    <textarea id="text1" value={txt1} placeholder={msg.slice(0,3)+'를 입력하세요.'} onChange={e=>{
                         let txt1 = e.target.value;
                         let txt2 = '';
                         setTxt1(txt1);
@@ -38,9 +36,8 @@ export default function Form2(){
                         if(!method) setMsg('텍스트를 아스키로');
                         else setMsg('아스키를 텍스트로');
                     }}>⇄</button>
-                    <textarea readOnly id="text2" placeholder={msg.slice(5,8)+' 문자가 출력됩니다.'}value={txt2}/>
+                    <textarea readOnly id="text2" placeholder={msg.slice(5,8)+'가 출력됩니다.'}value={txt2}/>
                 </div>
-            </div>
-        </div>
+                </>
     )
 }

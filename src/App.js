@@ -3,8 +3,8 @@ import gitIcon from './gitIcon.png';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
-
 import {useState} from 'react';
+
 import Form1 from './Form1'
 import './Form1.css'
 
@@ -34,7 +34,7 @@ function App() {
               <a className='navBar' href='/form2'>아스키변환</a>
             </li>
             <li id='form3'>
-              <a className='navBar' href='/form3'>유니코드변환</a>
+              <a className='navBar' href='/form3'>Base64변환</a>
             </li>
           </ul>
           <div>
@@ -42,14 +42,17 @@ function App() {
           </div>
       </div>
     <hr/>
-    <BrowserRouter>
-    <Routes>
-      <Route path='/' element={<Form1/>}/>
-      <Route path='/form1/' element={<Form1/>}/>
-      <Route path='/form2/' element={<Form2/>}/>
-    </Routes>
-    </BrowserRouter>
-
+    <div className='container'>
+      <div className='body' >
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<Form1/>}/>
+            <Route path='/form1/' element={<Form1/>}/>
+            <Route path='/form2/' element={<Form2/>}/>
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </div>
 
   </div>
   );

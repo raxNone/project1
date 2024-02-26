@@ -53,8 +53,7 @@ function selChoose(e){
   
     
     return (
-      <div className='container'>
-        <div className='body' >
+      <>
           <h2>진법변환 - {num1} to {num2}</h2>
               <div className='input'>
               <input type='text' id='text' autoComplete='off' placeholder={msg} style={{height:"50px", width :"500px", fontSize:"25px"}} onChange={change}/>
@@ -83,8 +82,7 @@ function selChoose(e){
               setCustom(t_value.toString(n2).toUpperCase())}}>{opt}
             </select> 진수 : {custom}
           </div>
-        </div>
-      </div>
+    </>
     )
   }
   
