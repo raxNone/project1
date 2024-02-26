@@ -1,0 +1,18 @@
+.form2Text{
+    display: flex;
+    justify-content: space-around;    
+}
+
+#text1, #text2{
+    font-size: 20px;
+    width:450px;
+    height: 400px;
+}
+
+.switchBut{
+    margin:0 auto;
+    width:150px;
+    font-size: 35px;
+    height: 100px;
+    margin-top: 160px;
+}
