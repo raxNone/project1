@@ -33,6 +33,19 @@ ReactJS로 작성한 변환 기능 모음 페이지입니다.
 
 다음과 같은 명령어를 입력합니다.
 
+```
+git clone https://github.com/raxNone/project1.git
+
+cd project1
+
+npm install react
+
+npm install react-router-dom```
+
+
+
+
+
 ```git clone https://github.com/raxNone/project1.git```
 
 ```cd project1```
