@@ -20,11 +20,12 @@ ReactJS로 작성한 변환 기능 모음 페이지입니다.
 * 기기 : Lenovo X1C Gen8
 * CPU : Intel CORE i5
 * 테스트 브라우저 : Chrome ^119.0.6045.105(64bit)
-* node : ^20.11.0
-* npm : ^10.2.4
+
 
 **Prerequisite**
 
+* node : ^20.11.0
+* npm : ^10.2.4
 * package
   * react : ^18.2.0
   * react-router-dom : ^6.22.1
