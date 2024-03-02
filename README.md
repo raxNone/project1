@@ -5,13 +5,13 @@ ReactJS로 작성한 변환 기능 모음 페이지입니다.
 네이버웹툰 메인 페이지를 벤치마킹해 코드를 작성했습니다.
 
 ![스크린샷 2024-02-26 11-12-53](https://github.com/raxNone/project1/assets/134260668/21a82841-d350-4cb7-92c9-819cc21b9cdc)
-[블로그 주소](https://blog.naver.com/hani_vlog/223364685653)
+[1페이지 소개 - 블로그 주소](https://blog.naver.com/hani_vlog/223364685653)
 
 ![스크린샷 2024-02-26 14-32-27](https://github.com/raxNone/project1/assets/134260668/4e902555-3fa8-4ca5-946d-6835c34424c1)
-[블로그 주소](https://blog.naver.com/hani_vlog/223365593985)
+[2페이지 소개 - 블로그 주소](https://blog.naver.com/hani_vlog/223365593985)
 
 ![스크린샷 2024-02-26 18-07-25](https://github.com/raxNone/project1/assets/134260668/1dfb038f-4f16-4ec5-ba98-581ce6dceaa8)
-[블로그 주소](https://blog.naver.com/hani_vlog/223365831731)
+[3페이지 소개 - 블로그 주소](https://blog.naver.com/hani_vlog/223365831731)
 
 ----------------------------------------------------
 **Environment**
