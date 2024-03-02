@@ -31,10 +31,19 @@ ReactJS로 작성한 변환 기능 모음 페이지입니다.
 
 **Usage**
 
-저장된 디렉토리에서 다음과 같은 명령어를 입력해 서버를 실행시켜줍니다.
+다음과 같은 명령어를 입력합니다.
 
-```
-npm start
-```
+```git clone https://github.com/raxNone/project1.git```
+
+```cd project1```
+
+```npm install react```
+
+```npm install react-router-dom```
+
+
+다음과 같은 명령어를 입력해 서버를 실행시켜줍니다.
+
+```npm start```
 
 **[localhost:3000](http://localhost:3000)** 로 접속합니다.
