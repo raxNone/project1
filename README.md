@@ -16,7 +16,9 @@ ReactJS로 작성한 변환 기능 모음 페이지입니다.
 
 **Environment**
 
-실행환경에 대해 작성하면 된다. OS나 컴파일러 혹은 Hardware와 관련된 환경을 작성하면 된다. Multicore 환경에서 돌아가는 프로그램이라면 CPU나 RAM 같은 것들을 작성해도 좋다.
+* OS : Ubuntu 22.04
+* 기기 : Lenovo X1C Gen8
+* CPU : Intel CORE i5
 
 **Prerequisite**
 
@@ -26,12 +28,14 @@ ReactJS로 작성한 변환 기능 모음 페이지입니다.
 
 
 **Files**
-
+* src
+  * sites : 라우팅된 사이트 모음
+  * App.js : 사이트를 라우팅해주는 view 페이지
 
 
 **Usage**
 
-다음과 같은 명령어를 입력합니다.
+터미널 창에 다음과 같은 명령어를 입력합니다.
 
 ```
 git clone https://github.com/raxNone/project1.git
