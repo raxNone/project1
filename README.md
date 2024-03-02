@@ -20,9 +20,9 @@ ReactJS로 작성한 변환 기능 모음 페이지입니다.
 
 **Prerequisite**
 
-*package
-  *react : ^18.2.0
-  *react-router-dom : ^6.22.1
+* package
+  * react : ^18.2.0
+  * react-router-dom : ^6.22.1
 
 
 **Files**
