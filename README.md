@@ -21,6 +21,7 @@ ReactJS로 작성한 변환 기능 모음 페이지입니다.
 * CPU : Intel CORE i5
 * 테스트 브라우저 : Chrome ^119.0.6045.105(64bit)
 * node : ^20.11.0
+* npm : ^10.2.4
 
 **Prerequisite**
 
