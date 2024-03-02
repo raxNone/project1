@@ -33,4 +33,4 @@ Usage
 npm start
 ```
 
-**[localhost:3000](localhost:3000)** 로 접속합니다.
+**[localhost:3000](www.naver.com)** 로 접속합니다.
